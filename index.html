@@ -32,6 +32,18 @@
     #form_message_button:hover{
       color: #987750;
     }
+    /* Small helper styles for the publications button */
+    .pub_btn {
+      display: inline-block;
+      padding: 12px 18px;
+      border: 1px solid #987750;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .pub_btn:hover {
+      color: #987750;
+    }
   </style>
 </head>
 
@@ -80,7 +92,6 @@
             <div class="roww">
 
               <!-- Main Title -->
-              <!-- UPDATED: Home headline + research focus -->
               <div class="resumo_fn_main_title">
                 <h3 class="subtitle">Introduction</h3>
                 <h3 class="title">A. E. M. Ridwan</h3>
@@ -88,7 +99,7 @@
                   PhD Student, Kennesaw State University · Graduate Research Assistant at
                   <a href="https://www.hix-lab.com/home" target="_blank" rel="noopener">HiX Lab</a>
                 </p>
-                <p class="desc">Research: Cybersickness prediction & mitigation in VR using multimodal physiological signals</p>
+                <p class="desc">Research: Cybersickness prediction &amp; mitigation in VR using multimodal physiological signals</p>
                 <img src="img/signature.png" alt="">
               </div>
               <!-- /Main Title -->
@@ -105,7 +116,6 @@
             <div class="roww">
 
               <!-- Main Title -->
-              <!-- UPDATED: Biography text -->
               <div class="resumo_fn_main_title">
                 <h3 class="subtitle">About Me</h3>
                 <h3 class="title">Biography</h3>
@@ -123,7 +133,6 @@
               <!-- /Main Title -->
 
               <!-- About Information -->
-              <!-- UPDATED: Personal info table (removed Age, updated location/phone) -->
               <div class="resumo_fn_about_info">
                 <div class="about_left">
                   <table>
@@ -146,6 +155,14 @@
                     <tr>
                       <th>LinkedIn</th>
                       <th><a href="https://www.linkedin.com/in/a-e-m-ridwan-66b549186/" target="_blank" rel="noopener">A. E. M. Ridwan</a></th>
+                    </tr>
+                    <tr>
+                      <th>Google Scholar</th>
+                      <th>
+                        <a href="https://scholar.google.com/citations?user=5CDbBpoAAAAJ&hl=en" target="_blank" rel="noopener">
+                          Scholar Profile
+                        </a>
+                      </th>
                     </tr>
                   </table>
                 </div>
@@ -197,12 +214,10 @@
                           <div class="item">
                             <div class="item_top">
                               <h5>Kennesaw State University · HiX Lab</h5>
-                              <!-- UPDATED: Date -->
                               <span>( Fall 2024 — Present )</span>
                             </div>
                             <h3>Graduate Research Assistant</h3>
-                            <!-- UPDATED: Details -->
-                            <p>Cybersickness prediction & mitigation in VR using multimodal physiological signals (e.g., eye tracking, EDA/GSR, HR/PPG) and learning-based models.</p>
+                            <p>Cybersickness prediction &amp; mitigation in VR using multimodal physiological signals (e.g., eye tracking, EDA/GSR, HR/PPG) and learning-based models.</p>
                             <p>Developed end-to-end pipelines for dataset preprocessing, leakage-safe evaluation, and model interpretation.</p>
                           </div>
                         </li>
@@ -426,11 +441,85 @@
         <!-- /About Section -->
 
 
-        <!-- Portfolio Section -->
-        <section id="portfolio">
+        <!-- Publications Section -->
+        <section id="publications">
           <div class="container">
             <div class="roww">
-              <!-- Main Title -->
+
+              <div class="resumo_fn_main_title">
+                <h3 class="subtitle">Publications</h3>
+                <h3 class="title">Selected Papers</h3>
+                <p class="desc">
+                  Full list on
+                  <a href="https://scholar.google.com/citations?user=5CDbBpoAAAAJ&hl=en" target="_blank" rel="noopener">
+                    Google Scholar
+                  </a>.
+                </p>
+              </div>
+
+              <div class="resumo_fn_boxed_list">
+                <ul>
+
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>IEEE VR 2026 (TVCG)</h5>
+                        <span>(To be presented)</span>
+                      </div>
+                      <h3>Two Phase Multi-Task Learning for Cybersickness Prediction and Adaptive Reduction</h3>
+                      <p><strong>A. E. M. Ridwan</strong>, Purnata Saha, John Quarles, Rifatul Islam</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>IEEE ISMAR 2025</h5>
+                        <span>(Conference Paper)</span>
+                      </div>
+                      <h3>
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11220344" target="_blank" rel="noopener">
+                          Beyond Supervised Limits: Semi-Supervised Cybersickness Prediction from Physiological Signals with Minimal Labeled Data
+                        </a>
+                      </h3>
+                      <p><strong>A. E. M. Ridwan</strong>, John Quarles, Rifatul Islam</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>IEEE TENSYMP 2020</h5>
+                        <span>(DOI: 10.1109/TENSYMP50017.2020.9230656)</span>
+                      </div>
+                      <h3>
+                        <a href="https://www.researchgate.net/publication/342094712_Design_and_Implementation_of_a_Smart_Bike_Accident_Detection_System"
+                           target="_blank" rel="noopener">
+                          Design and Implementation of a Smart Bike Accident Detection System
+                        </a>
+                      </h3>
+                      <p>M. M. Islam, <strong>A. E. M. Ridwan</strong>, M. M. Mary, M. F. Siam, S. A. Mumu, S. Rana</p>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <a class="pub_btn" href="https://scholar.google.com/citations?user=5CDbBpoAAAAJ&hl=en" target="_blank" rel="noopener">
+                View Google Scholar Profile
+              </a>
+
+            </div>
+          </div>
+        </section>
+        <!-- /Publications Section -->
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+
+          <div class="container">
+            <div class="roww">
               <div class="resumo_fn_main_title">
                 <div class="my__nav">
                   <a href="#" class="prev"><span></span></a>
@@ -439,7 +528,6 @@
                 <h3 class="subtitle">Portfolio</h3>
                 <h3 class="title">Projects</h3>
               </div>
-              <!-- /Main Title -->
             </div>
           </div>
 
@@ -447,8 +535,6 @@
             <div class="roww">
 
               <div class="owl-carousel modal_items" data-from="portfolio" data-count="5">
-                <!-- NOTE: Portfolio content kept as-is from your original -->
-                <!-- Item 1 -->
                 <div class="item modal_item" data-index="1">
                   <div class="img_holder">
                     <img src="img/thumb/square.jpg" alt="">
@@ -471,7 +557,6 @@
                   </div>
                 </div>
 
-                <!-- Item 2 -->
                 <div class="item modal_item" data-index="2">
                   <div class="img_holder">
                     <img src="img/thumb/square.jpg" alt="">
@@ -492,7 +577,6 @@
                   </div>
                 </div>
 
-                <!-- Item 3 -->
                 <div class="item modal_item" data-index="3">
                   <div class="img_holder">
                     <img src="img/thumb/square.jpg" alt="">
@@ -509,12 +593,11 @@
                     <div class="img_holder">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/py0O5itTuEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <p class="fn__desc">In our overcrowded world, countries like Bangladesh have devolved into war zones, with thousands of people becoming disabled or worse, dying as a result of traffic accidents. The number of bikes in Dhaka has expanded dramatically as a result of the recent popularity of ride-sharing apps such as Pathao, Uber Moto, Shohoz, and others. As a result, bike accidents have become an everyday thing, we felt the need of an improved bike safety system that ensures biker’s proper emergency services.</p>
+                    <p class="fn__desc">In our overcrowded world, countries like Bangladesh have devolved into war zones, withthousands of people becoming disabled or worse, dying as a result of traffic accidents. The number of bikes in Dhaka has expanded dramatically as a result of the recent popularity of ride-sharing apps such as Pathao, Uber Moto, Shohoz, and others. As a result, bike accidents have become an everyday thing, we felt the need of an improved bike safety system that ensures biker’s proper emergency services.</p>
                     <p class="fn__desc">In this paper, we have proposed a system that constantly detects bike accidents using MPU6050 (gyro sensor and accelerometer), SIM808 (GPS+GPRS+GSM), Raspberry Pi 3 Model B and Arduino Uno. We also have used a USB camera to record the previous 30 seconds of the accident to identify the reason behind this misfortune. We have placed the proposed system on the surface of the bike and the camera behind the bike’s seat. If an accident occurs, the sensors will trigger, capture the video information of why the accident has occurred and send a message containing the number and location of the biker to the nearest hospitals, police stations and registered family members.</p>
                   </div>
                 </div>
 
-                <!-- Item 4 -->
                 <div class="item modal_item" data-index="4">
                   <div class="img_holder">
                     <img src="img/thumb/square.jpg" alt="">
@@ -536,7 +619,6 @@
                   </div>
                 </div>
 
-                <!-- Item 5 -->
                 <div class="item modal_item" data-index="5">
                   <div class="img_holder">
                     <img src="img/thumb/square.jpg" alt="">
@@ -598,7 +680,6 @@
                   </div>
                 </div>
 
-                <!-- Your additional items kept -->
                 <div class="item modal_item" data-index="6">
                   <div class="img_holder">
                     <img src="img/thumb/square.jpg" alt="">
@@ -705,7 +786,6 @@
                     </div>
                   </div>
 
-                  <!-- Activities content kept as-is -->
                   <div class="item modal_item" data-index="1" style="display: inline-block;">
                     <div class="img_holder">
                       <img src="img/portfolio/3d.jpg" alt="" style="width: 300px; height: auto; max-width: 100%;">
@@ -830,17 +910,13 @@
           <div class="container">
             <div class="roww resumo_fn_contact">
 
-              <!-- Main Title -->
               <div class="resumo_fn_main_title">
                 <h3 class="subtitle">Contact</h3>
                 <h3 class="title">Get In Touch</h3>
                 <p class="desc">If you have any suggestion, project or even you want to say “hello”, please fill out the form below and I will reply you shortly.</p>
               </div>
-              <!-- /Main Title -->
 
-              <!-- Contact Form -->
               <form id="my-form" class="contact_form" action="https://formspree.io/f/mvolooyg" method="POST">
-
                 <div class="success" data-success="Your message has been received, we will contact you soon."></div>
                 <div class="empty_notice"><span>Please Fill Required Fields!</span></div>
 
@@ -881,17 +957,13 @@
                   </div>
                 </div>
               </form>
-              <!-- /Contact Form -->
 
-              <!-- Contact Info -->
-              <!-- UPDATED: Contact location/email -->
               <div class="resumo_fn_contact_info">
                 <p>Location</p>
                 <h3>Marietta, GA, USA</h3>
                 <p>Email</p>
                 <h4><a href="mailto:ridwanshihab14466@gmail.com">ridwanshihab14466@gmail.com</a></h4>
               </div>
-              <!-- /Contact Info -->
 
             </div>
           </div>
@@ -946,7 +1018,6 @@
             <div class="abs_img" data-bg-img="img/right.jpg"></div>
           </div>
 
-          <!-- UPDATED: Right-side animated titles -->
           <div class="title_holder">
             <h5>Hi There! I am</h5>
             <h3>
@@ -963,7 +1034,6 @@
         <div class="right_bottom">
           <a href="#contact">
             <span class="circle"></span>
-            <!-- UPDATED: CTA -->
             <span class="text">Open to research collaborations in VR, XR HCI, and physiological sensing</span>
           </a>
         </div>
@@ -988,6 +1058,7 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#publications">Publications</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#services">Activities</a></li>
           <li><a href="#contact">Contact</a></li>
